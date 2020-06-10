@@ -1,0 +1,106 @@
+body{
+	padding: 6px;
+	margin: 4px;
+	background: red;
+}
+header{
+	background-color: #6e6e6e;
+	background-image: url("../images/flywheel.jpg");  
+	background-size: 100%;
+	height: 20vh;
+}
+h1{
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 43px;
+}
+nav{
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	color: #000000;
+	padding: 14px 5%;
+	font-size: 126%;
+	background: rgba(255,255,255,0.5);
+	margin: 0 4%;
+	text-align: center;
+	border-radius: 7%;
+}
+main{
+	display: initial;
+}
+.left img{
+	width: 66%;
+	display: block;
+	margin: 8% auto;
+	border: solid 3px #000000;
+}
+.right{
+	display: table;
+}
+.right p{
+	font-size: 20px;
+}
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.active, a:hover{
+	background: rgb(255,255,255);
+}
+/*Assignment 3 starts from here*/
+section table{
+	display: inline-block;
+	margin: 4% 0% 0% 17%; 
+	text-align: center;
+	line-height: 140%;
+}
+tr th{
+	border-bottom: 3px solid #86e20d;
+	background: #3ca23c;
+	border-top-left-radius: 3.5px;
+	border-top-right-radius: 3.5px;
+	padding: 20px;
+	color: #ffffff;
+	background: -moz-linear-gradient(0deg, #11791a,#72d85ed1);
+	background: -webkit-linear-gradient(90deg, #11791a,#72d85ed1);
+	background: -o-linear-gradient(0deg, #11791a,#72d85ed1);
+	background: linear-gradient(0deg, #11791a,#72d85ed1);
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+}
+tr td{
+	background: rgba(197, 218, 172, 0.8);
+	color: rgba(0, 0, 0, 0.65);
+	padding: 14px 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius: 2px;
+}
+tr:hover{
+	color: rgba(0, 0, 0, 1);
+	background: rgba(197, 218, 172, 1);
+
+}
+td:first-child,th:first-child{
+	text-align: left;
+}
+@media screen and (min-width: 900px){
+	.left{
+	display: inline-block;
+	float: left;
+	width: 25%;
+	height: 100vh;
+	background: #797728;
+	padding: 5px;
+}
+	body{ background: blue; }
+}
+@media screen and (min-width: 1500px){
+	body{ background:green; }
+}
